@@ -11,13 +11,17 @@ public class Main {
     }
 
     static void testMatch() {
-        Pattern pattern = Pattern.compile("(d.)");
-        Matcher m = pattern.matcher("abcdedfgd");
-        System.out.println(m.group(0));
-        m.start();
-        while (m.find()) {
-            System.out.println(m.group(0));
-        }
+//        Pattern pattern = Pattern.compile("(d.)");
+//        Matcher m = pattern.matcher("abcdedfgd");
+//        System.out.println(m.group(0));
+//        m.start();
+//        while (m.find()) {
+//            System.out.println(m.group(0));
+//        }
+    }
+    
+    static void changeMain(){
+    	
     }
 
     static void testReplace() {
